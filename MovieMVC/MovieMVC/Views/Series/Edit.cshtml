@@ -1,0 +1,64 @@
+﻿@model MovieMVC.Models.Entities.Series
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Dizi Güncelleme Sayfası</h2>
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="SeriesId" />
+
+    <div class="form-group">
+        <label asp-for="SeriesName" class="control-label">Dizi İsmi</label>
+        <input asp-for="SeriesName" class="form-control" />
+        <span asp-validation-for="SeriesName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Year" class="control-label">Yapım Yılı</label>
+        <input asp-for="Year" type="number" class="form-control" />
+        <span asp-validation-for="Year" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="GenreId" class="control-label"></label>
+        <select asp-for="GenreId" asp-items="@(new SelectList(ViewBag.Genres, "GenreId", "GenreName"))" class="form-control">
+            <option value="">-- Film Türü Seç --</option>
+        </select>
+        <span asp-validation-for="GenreId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="AciklamaFirst" class="control-label">Açıklama</label>
+        <textarea asp-for="AciklamaFirst" class="form-control"></textarea>
+        <span asp-validation-for="AciklamaFirst" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ImageFile">Yeni Resim Seç</label>
+        <input asp-for="ImageFile" type="file" class="form-control" />
+        <span asp-validation-for="ImageFile" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="TrailerUrl">Fragman URL</label>
+        <input asp-for="TrailerUrl" class="form-control" />
+        <span asp-validation-for="TrailerUrl" class="text-danger"></span>
+    </div>
+
+    @if (!string.IsNullOrEmpty(Model.ImagePath))
+    {
+        <div class="form-group">
+            <label>Current Image</label>
+            <img src="@Model.ImagePath" alt="@Model.SeriesName" style="max-width: 200px;" />
+        </div>
+    }
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Film Güncelle</button>
+    </div>
+</form>
+
+
+
+
+

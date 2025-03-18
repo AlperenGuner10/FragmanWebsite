@@ -1,0 +1,26 @@
+﻿@model MovieMVC.Models.Entities.Genre
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Yeni Tür Ekleme Sayfası</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label for="GenreName">Tür İsmi</label>
+        <input type="text" class="form-control" id="GenreName" name="GenreName" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Yeni Tür Oluştur</button>
+</form>
+<h3>Eklenen Türler</h3>
+<select class="form-control" id="ExistingGenres" name="GenreId">
+    <option value="">Eklenen Türler Listesi</option>
+    @foreach (var genre in ViewData["Genres"] as IEnumerable<MovieMVC.Models.Entities.Genre>)
+    {
+        <option value="@genre.GenreId">@genre.GenreName</option>
+    }
+</select>
+

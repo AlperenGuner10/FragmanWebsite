@@ -1,0 +1,64 @@
+﻿@model MovieMVC.Models.Entities.HomeViewModel
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<body>
+	<div class="container">
+		<div class="container">
+			<div class="content-container">
+				<div class="featured-content">
+					<h1 style="color:ghostwhite">KURTLAR VADİSİ</h1>
+					<p class="featured-desc">
+						Kurtlar Vadisi, Sinegraf ve Pana Film imzalı, 15 Ocak 2003 tarihinde yayımlanmaya başlayan aksiyon
+						ve politik türdeki Türk televizyon dizisidir.
+						Dizi, 4 sezon olup toplam 97 bölümden oluşmaktadır.
+					</p>
+					<a href="https://www.youtube.com/playlist?list=PLpwZTEbwdv2eIG-TOnJngfybSoB4QZVp5" target="_blank">
+						<button class="featured-button">İZLE</button>
+					</a>
+				</div>
+				<div class="movie-list-container">
+					<h1 class="movie-list-title">FİLMLERİMİZ</h1>
+					<div class="movie-list-wrapper">
+						<div class="movie-list">
+							@foreach (var movie in Model.Movies)
+							{
+								<div class="movie-list-item">
+									<img class="movie-list-item-img" src="@movie.ImagePath" alt="">
+									<span class="movie-list-item-title">@movie.MovieName</span>
+									<p class="movie-list-item-desc">
+										@movie.AciklamaFirst
+									</p>
+									<a href="/movie/details/@movie.MovieId" class="movie-list-item-button">İZLE</a>
+								</div>
+							}
+						</div>
+						<i class="fas fa-chevron-right arrow"></i>
+					</div>
+				</div>
+				<div class="movie-list-container">
+					<h1 class="movie-list-title">DİZİLERİMİZ</h1>
+					<div class="movie-list-wrapper">
+						<div class="movie-list">
+							@foreach (var series in Model.Series)
+							{
+								<div class="movie-list-item">
+									<img class="movie-list-item-img" src="@series.ImagePath" alt="">
+									<span class="movie-list-item-title">@series.SeriesName</span>
+									<p class="movie-list-item-desc">
+										@series.AciklamaFirst
+									</p>
+									<a href="/series/details/@series.SeriesId" class="movie-list-item-button">İZLE</a>
+								</div>
+							}
+						</div>
+						<i class="fas fa-chevron-right arrow"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="~/website/app.js"></script>
+</body>
+

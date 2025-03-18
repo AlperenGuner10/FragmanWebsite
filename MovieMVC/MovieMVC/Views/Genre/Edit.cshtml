@@ -1,0 +1,20 @@
+﻿@model MovieMVC.Models.Entities.Genre
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+    
+<h2>Tür Güncelleme Sayfası</h2>
+
+<form asp-action="Edit" method="post">
+    <div class="form-group">
+        <label for="GenreId">Genre ID</label>
+        <input type="text" class="form-control" id="GenreId" name="GenreId" value="@Model.GenreId" readonly />
+    </div>
+    <div class="form-group">
+        <label for="GenreName">Tür İsmi</label>
+        <input type="text" class="form-control" id="GenreName" name="GenreName" value="@Model.GenreName" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Tür Güncelle</button>
+</form>

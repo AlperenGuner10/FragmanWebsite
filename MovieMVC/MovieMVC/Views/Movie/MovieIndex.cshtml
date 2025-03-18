@@ -1,0 +1,26 @@
+﻿@model IEnumerable<MovieMVC.Models.Entities.Movie>
+@{
+    ViewData["Title"] = "MovieIndex";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-movie">
+    <h1 class="title">Filmlerimiz</h1>
+    <div class="movie-grid">
+        @foreach (var movie in Model)
+        {
+            <div class="movie-card">
+                <div class="movie-image-card">
+                    <img src="@movie.ImagePath" alt="@movie.MovieName">
+                </div>
+                <div class="movie-info">
+                    <h2 class="movie-title">@movie.MovieName</h2>
+                    <p class="movie-description">@movie.AciklamaFirst</p>
+                    <p class="movie-description"><strong>Yapım Yılı: </strong>@movie.Year</p>
+                    <p class="movie-description"><strong>Film Türü: </strong>@movie.Genre?.GenreName</p>
+                    <a href="/movie/details/@movie.MovieId" class="watch-button">İzle</a>
+                </div>
+            </div>
+        }
+    </div>
+</div>

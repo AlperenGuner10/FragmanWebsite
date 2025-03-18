@@ -1,0 +1,47 @@
+﻿@model MovieMVC.Models.Entities.Series
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Dizi Ekleme Sayfası</h2>
+
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="SeriesName">Dizi İsmi</label>
+        <input asp-for="SeriesName" class="form-control" />
+        <span asp-validation-for="SeriesName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Year">Yapım Yılı</label>
+        <input asp-for="Year" class="form-control" />
+        <span asp-validation-for="Year" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="AciklamaFirst">Açıklama</label>
+        <textarea asp-for="AciklamaFirst" class="form-control"></textarea>
+        <span asp-validation-for="AciklamaFirst" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="GenreId">Dizi Türü</label>
+        <select asp-for="GenreId" asp-items="@(new SelectList(ViewBag.Genres, "GenreId", "GenreName"))" class="form-control">
+            <option value="">Tür Seç</option>
+        </select>
+        <span asp-validation-for="GenreId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ImageFile">Resim Seç</label>
+        <input asp-for="ImageFile" type="file" class="form-control" />
+        <span asp-validation-for="ImageFile" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="TrailerUrl">Fragman URL</label>
+        <input asp-for="TrailerUrl" class="form-control" />
+        <span asp-validation-for="TrailerUrl" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Dizi Ekle</button>
+</form>
+
+
+

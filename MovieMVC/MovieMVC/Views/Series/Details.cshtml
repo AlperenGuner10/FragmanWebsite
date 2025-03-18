@@ -1,0 +1,50 @@
+﻿@model MovieMVC.Models.Entities.Series
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<body>
+    <div class="container">
+        <div class="container">
+            <div class="content-container">
+                <div class="featured-contentt">
+                    <h1>@Model.SeriesName</h1>
+                    <div class="movie-details-container">
+                        <div class="movie-details-content">
+                            <div class="movie-details-image">
+                                <img src="@Model.ImagePath" alt="@Model.SeriesName" class="img-fluid" />
+                            </div>
+                            <div class="movie-details-trailer">
+                                @if (!string.IsNullOrEmpty(Model.TrailerUrl))
+                                {
+                                    <h3>Fragman</h3>
+                                    <iframe width="100%" height="100%" src="@Model.TrailerUrl"></iframe>
+                                }
+                                else
+                                {
+                                    <p>No trailer available.</p>
+                                }
+                            </div>
+                        </div>
+
+                        <div class="movie-details-info">
+                            <p><strong>Yapım Yılı:</strong> @Model.Year</p>
+                            <p><strong>Film Türü:</strong> @Model.Genre?.GenreName</p>
+                            <p><strong>Açıklama:</strong> @Model.AciklamaFirst</p>
+                        </div>
+
+                        <div class="movie-details-buttons">
+                            <a asp-controller="Home" asp-action="Index">Film Seçimine Dön</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/website/app.js"></script>
+</body>
+
+
+

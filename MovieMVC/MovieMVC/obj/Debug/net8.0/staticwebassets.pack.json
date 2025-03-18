@@ -1,0 +1,977 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\css\\main.css",
+      "PackagePath": "staticwebassets\\Login_v1\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\css\\util.css",
+      "PackagePath": "staticwebassets\\Login_v1\\css\\util.css"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\less\\animated.less",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\less\\animated.less"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\less\\bordered-pulled.less",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\less\\bordered-pulled.less"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\less\\core.less",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\less\\core.less"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\less\\fixed-width.less",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\less\\fixed-width.less"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\less\\font-awesome.less",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\less\\font-awesome.less"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\less\\icons.less",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\less\\icons.less"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\less\\larger.less",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\less\\larger.less"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\less\\list.less",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\less\\list.less"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\less\\mixins.less"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\less\\path.less",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\less\\path.less"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\less\\rotated-flipped.less",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\less\\rotated-flipped.less"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\less\\screen-reader.less",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\less\\screen-reader.less"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\less\\stacked.less",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\less\\stacked.less"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\less\\variables.less",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\less\\variables.less"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\scss\\_animated.scss",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\scss\\_animated.scss"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\scss\\_core.scss"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\scss\\_fixed-width.scss",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\scss\\_fixed-width.scss"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\scss\\_icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\scss\\_larger.scss",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\scss\\_larger.scss"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\scss\\_list.scss"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\scss\\_path.scss",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\scss\\_path.scss"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\scss\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\scss\\_screen-reader.scss"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\scss\\_stacked.scss",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\scss\\_stacked.scss"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\font-awesome-4.7.0\\scss\\font-awesome.scss",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\font-awesome-4.7.0\\scss\\font-awesome.scss"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\montserrat\\Montserrat-Black.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\montserrat\\Montserrat-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\montserrat\\Montserrat-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\montserrat\\Montserrat-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\montserrat\\Montserrat-Bold.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\montserrat\\Montserrat-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\montserrat\\Montserrat-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\montserrat\\Montserrat-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\montserrat\\Montserrat-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\montserrat\\Montserrat-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\montserrat\\Montserrat-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\montserrat\\Montserrat-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\montserrat\\Montserrat-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\montserrat\\Montserrat-ExtraLight.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\montserrat\\Montserrat-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\montserrat\\Montserrat-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\montserrat\\Montserrat-Italic.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\montserrat\\Montserrat-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\montserrat\\Montserrat-Light.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\montserrat\\Montserrat-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\montserrat\\Montserrat-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\montserrat\\Montserrat-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\montserrat\\Montserrat-Medium.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\montserrat\\Montserrat-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\montserrat\\Montserrat-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\montserrat\\Montserrat-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\montserrat\\Montserrat-Regular.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\montserrat\\Montserrat-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\montserrat\\Montserrat-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\montserrat\\Montserrat-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\montserrat\\Montserrat-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\montserrat\\Montserrat-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\montserrat\\Montserrat-Thin.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\montserrat\\Montserrat-Thin.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\montserrat\\Montserrat-ThinItalic.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\montserrat\\Montserrat-ThinItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\montserrat\\OFL.txt",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\montserrat\\OFL.txt"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\poppins\\Poppins-Black.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\poppins\\Poppins-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\poppins\\Poppins-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\poppins\\Poppins-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\poppins\\Poppins-Bold.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\poppins\\Poppins-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\poppins\\Poppins-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\poppins\\Poppins-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\poppins\\Poppins-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\poppins\\Poppins-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\poppins\\Poppins-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\poppins\\Poppins-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\poppins\\Poppins-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\poppins\\Poppins-ExtraLight.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\poppins\\Poppins-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\poppins\\Poppins-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\poppins\\Poppins-Italic.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\poppins\\Poppins-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\poppins\\Poppins-Light.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\poppins\\Poppins-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\poppins\\Poppins-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\poppins\\Poppins-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\poppins\\Poppins-Medium.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\poppins\\Poppins-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\poppins\\Poppins-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\poppins\\Poppins-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\poppins\\Poppins-Regular.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\poppins\\Poppins-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\poppins\\Poppins-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\poppins\\Poppins-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\poppins\\Poppins-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\poppins\\Poppins-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\poppins\\Poppins-Thin.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\poppins\\Poppins-Thin.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\fonts\\poppins\\Poppins-ThinItalic.ttf",
+      "PackagePath": "staticwebassets\\Login_v1\\fonts\\poppins\\Poppins-ThinItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\images\\icons\\favicon.ico",
+      "PackagePath": "staticwebassets\\Login_v1\\images\\icons\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\images\\img-01.png",
+      "PackagePath": "staticwebassets\\Login_v1\\images\\img-01.png"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\index.html",
+      "PackagePath": "staticwebassets\\Login_v1\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\js\\main.js",
+      "PackagePath": "staticwebassets\\Login_v1\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\vendor\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\Login_v1\\vendor\\animate\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\Login_v1\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\Login_v1\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\Login_v1\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\Login_v1\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\Login_v1\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\Login_v1\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\Login_v1\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\Login_v1\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\Login_v1\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\Login_v1\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Login_v1\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\Login_v1\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\Login_v1\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Login_v1\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\vendor\\bootstrap\\js\\popper.js",
+      "PackagePath": "staticwebassets\\Login_v1\\vendor\\bootstrap\\js\\popper.js"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\vendor\\bootstrap\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\Login_v1\\vendor\\bootstrap\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\vendor\\bootstrap\\js\\tooltip.js",
+      "PackagePath": "staticwebassets\\Login_v1\\vendor\\bootstrap\\js\\tooltip.js"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\vendor\\css-hamburgers\\hamburgers.css",
+      "PackagePath": "staticwebassets\\Login_v1\\vendor\\css-hamburgers\\hamburgers.css"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\vendor\\css-hamburgers\\hamburgers.min.css",
+      "PackagePath": "staticwebassets\\Login_v1\\vendor\\css-hamburgers\\hamburgers.min.css"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\vendor\\jquery\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\Login_v1\\vendor\\jquery\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\vendor\\select2\\select2.css",
+      "PackagePath": "staticwebassets\\Login_v1\\vendor\\select2\\select2.css"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\vendor\\select2\\select2.js",
+      "PackagePath": "staticwebassets\\Login_v1\\vendor\\select2\\select2.js"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\vendor\\select2\\select2.min.css",
+      "PackagePath": "staticwebassets\\Login_v1\\vendor\\select2\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\vendor\\select2\\select2.min.js",
+      "PackagePath": "staticwebassets\\Login_v1\\vendor\\select2\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\Login_v1\\vendor\\tilt\\tilt.jquery.min.js",
+      "PackagePath": "staticwebassets\\Login_v1\\vendor\\tilt\\tilt.jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\000a1d57-f813-40b7-a8cd-3b21c084ac94_0x0-1624538796774.jpg",
+      "PackagePath": "staticwebassets\\images\\000a1d57-f813-40b7-a8cd-3b21c084ac94_0x0-1624538796774.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\019df931-4209-41c7-bb6b-8395033f3e86_TOLGSHOW_480x281-aead79cab7.png",
+      "PackagePath": "staticwebassets\\images\\019df931-4209-41c7-bb6b-8395033f3e86_TOLGSHOW_480x281-aead79cab7.png"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\035030d4-6573-444e-bd8a-bd8ae361328c_vPS1P-Gw_400x4002.jpg",
+      "PackagePath": "staticwebassets\\images\\035030d4-6573-444e-bd8a-bd8ae361328c_vPS1P-Gw_400x4002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\04d5fdce-d71b-4429-a426-d08f509af668_arkadasim-hosgeldin-divxd-com-cover.webp",
+      "PackagePath": "staticwebassets\\images\\04d5fdce-d71b-4429-a426-d08f509af668_arkadasim-hosgeldin-divxd-com-cover.webp"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\0bf4946a-226c-4ab5-a730-a82ba459c716_baba_batcheditor_fotor.jpg",
+      "PackagePath": "staticwebassets\\images\\0bf4946a-226c-4ab5-a730-a82ba459c716_baba_batcheditor_fotor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\0d0297b2-5ad2-461a-895f-36b7d6fadee6_images.jpeg",
+      "PackagePath": "staticwebassets\\images\\0d0297b2-5ad2-461a-895f-36b7d6fadee6_images.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\12bb780a-503b-4d16-a0ee-acb7c2c5645e_XDyOMrIL_400x400.jpg",
+      "PackagePath": "staticwebassets\\images\\12bb780a-503b-4d16-a0ee-acb7c2c5645e_XDyOMrIL_400x400.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\18be4006-d6bb-4eda-a364-5186b54d0181_muhtesem-yuzyil-10-bolum-foto-galeri-382.jpg",
+      "PackagePath": "staticwebassets\\images\\18be4006-d6bb-4eda-a364-5186b54d0181_muhtesem-yuzyil-10-bolum-foto-galeri-382.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\1ae367bf-5b03-497a-b08a-769f2847b148_0x0-1635252493405.jpg",
+      "PackagePath": "staticwebassets\\images\\1ae367bf-5b03-497a-b08a-769f2847b148_0x0-1635252493405.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\1afe6d96-a1b5-47f5-943f-187ee0f3a28d_mekanik.htm",
+      "PackagePath": "staticwebassets\\images\\1afe6d96-a1b5-47f5-943f-187ee0f3a28d_mekanik.htm"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\2059b6a9-6f58-4673-a46e-1e6ae4384628_venom_batcheditor_fotor.jpg",
+      "PackagePath": "staticwebassets\\images\\2059b6a9-6f58-4673-a46e-1e6ae4384628_venom_batcheditor_fotor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\2060b523-bf44-48f5-9202-95657d61e7b7_kapak_110107.jpg",
+      "PackagePath": "staticwebassets\\images\\2060b523-bf44-48f5-9202-95657d61e7b7_kapak_110107.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\207d9e05-5602-4389-ae1e-a338d9665d12_The-Mechanic-DVD_398d755a-375f-4f5b-9252-f6298699ace6.41c08bd249d76d39213c5a4ff08832aa.jpg",
+      "PackagePath": "staticwebassets\\images\\207d9e05-5602-4389-ae1e-a338d9665d12_The-Mechanic-DVD_398d755a-375f-4f5b-9252-f6298699ace6.41c08bd249d76d39213c5a4ff08832aa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\219a9ae7-7fbb-4e8e-a601-61c76913a280_0x0-1624538796774.jpg",
+      "PackagePath": "staticwebassets\\images\\219a9ae7-7fbb-4e8e-a601-61c76913a280_0x0-1624538796774.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\24309aaf-0eaf-456e-862c-b4e8a8fe9556_34.webp",
+      "PackagePath": "staticwebassets\\images\\24309aaf-0eaf-456e-862c-b4e8a8fe9556_34.webp"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\25fd4021-3fcf-4602-a5ad-2848420f7f9a_venom.jpg",
+      "PackagePath": "staticwebassets\\images\\25fd4021-3fcf-4602-a5ad-2848420f7f9a_venom.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\2a30ca16-848b-4353-9634-04934ca93a76_kapak_110107.jpg",
+      "PackagePath": "staticwebassets\\images\\2a30ca16-848b-4353-9634-04934ca93a76_kapak_110107.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\34299dcc-1501-4d65-be72-e5376fd7cbd8_venom.jpg",
+      "PackagePath": "staticwebassets\\images\\34299dcc-1501-4d65-be72-e5376fd7cbd8_venom.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\38a11686-a12f-412b-bfe9-d2d1897eb96d_channels4_profile.jpg",
+      "PackagePath": "staticwebassets\\images\\38a11686-a12f-412b-bfe9-d2d1897eb96d_channels4_profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\3cd1d224-3b5e-47aa-bda4-00e5e4c1f75d_mekanik.jpeg",
+      "PackagePath": "staticwebassets\\images\\3cd1d224-3b5e-47aa-bda4-00e5e4c1f75d_mekanik.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\3f3c5c3b-7a56-44c4-aca6-1ffd938a7c0c_7a365b53752419.56091d87a24fe.jpg",
+      "PackagePath": "staticwebassets\\images\\3f3c5c3b-7a56-44c4-aca6-1ffd938a7c0c_7a365b53752419.56091d87a24fe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\3f4981cd-4f26-404f-97d5-4150517835e7_hizli.jpeg",
+      "PackagePath": "staticwebassets\\images\\3f4981cd-4f26-404f-97d5-4150517835e7_hizli.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\44b324c8-ffe3-4ac6-b560-b4957bbc1e20_MV5BNTYwMDg5MDItNjhmZi00NmVmLThj.jpg",
+      "PackagePath": "staticwebassets\\images\\44b324c8-ffe3-4ac6-b560-b4957bbc1e20_MV5BNTYwMDg5MDItNjhmZi00NmVmLThj.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\46638789-6c80-4aa4-a608-5fcef4d9f15f_scale.webp",
+      "PackagePath": "staticwebassets\\images\\46638789-6c80-4aa4-a608-5fcef4d9f15f_scale.webp"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\4fe6d000-8d97-4350-877e-35e37327ac10_scale.webp",
+      "PackagePath": "staticwebassets\\images\\4fe6d000-8d97-4350-877e-35e37327ac10_scale.webp"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\55602071-3dcd-4e58-8b75-8ff524811961_34.webp",
+      "PackagePath": "staticwebassets\\images\\55602071-3dcd-4e58-8b75-8ff524811961_34.webp"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\5eb377b5-2678-4bb5-8861-a95ae1890ec7_mechanic.jpg",
+      "PackagePath": "staticwebassets\\images\\5eb377b5-2678-4bb5-8861-a95ae1890ec7_mechanic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\5ebc8103-3a7d-4fb7-8326-5c0d29d02f3b_TOLGSHOW_480x281-aead79cab7.png",
+      "PackagePath": "staticwebassets\\images\\5ebc8103-3a7d-4fb7-8326-5c0d29d02f3b_TOLGSHOW_480x281-aead79cab7.png"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\5efc4fda-6efa-4fb3-9973-8aa433c1ee4c_32fe5d_ddbd0fc38b124e59b969c5355f6f7a78~mv2.webp",
+      "PackagePath": "staticwebassets\\images\\5efc4fda-6efa-4fb3-9973-8aa433c1ee4c_32fe5d_ddbd0fc38b124e59b969c5355f6f7a78~mv2.webp"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\628987d3-d711-47bb-871d-22bd6a919b69_MV5BNTYwMDg5MDItNjhmZi00NmVmLThj.jpg",
+      "PackagePath": "staticwebassets\\images\\628987d3-d711-47bb-871d-22bd6a919b69_MV5BNTYwMDg5MDItNjhmZi00NmVmLThj.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\69f4d88a-9e52-4037-a399-49387e3c3666_arkadasim-hosgeldin-divxd-com-cover.webp",
+      "PackagePath": "staticwebassets\\images\\69f4d88a-9e52-4037-a399-49387e3c3666_arkadasim-hosgeldin-divxd-com-cover.webp"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\6e257eb5-31a9-4c96-81ae-0bdff04a73e6_6376496aebc83025084a1ecd.jpeg",
+      "PackagePath": "staticwebassets\\images\\6e257eb5-31a9-4c96-81ae-0bdff04a73e6_6376496aebc83025084a1ecd.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\73245226-4ec0-4c4c-8f4e-08de6a68d7d6_kapak_110107.jpg",
+      "PackagePath": "staticwebassets\\images\\73245226-4ec0-4c4c-8f4e-08de6a68d7d6_kapak_110107.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\74e7575e-5f42-4c91-8078-84f1ef3013e0_220px-Kuzey_Güney_afişi.jpg",
+      "PackagePath": "staticwebassets\\images\\74e7575e-5f42-4c91-8078-84f1ef3013e0_220px-Kuzey_Güney_afişi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\77eb9cf9-ef0b-4b29-80ae-a6184fd205fa_muhtesem-yuzyil-10-bolum-foto-galeri-382.jpg",
+      "PackagePath": "staticwebassets\\images\\77eb9cf9-ef0b-4b29-80ae-a6184fd205fa_muhtesem-yuzyil-10-bolum-foto-galeri-382.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\7e7aba34-7209-46d6-8956-d34afb939ea7_Diriliş-_Ertuğrul.jpg",
+      "PackagePath": "staticwebassets\\images\\7e7aba34-7209-46d6-8956-d34afb939ea7_Diriliş-_Ertuğrul.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\8089266f-371a-473f-9cc3-ac0477e55338_33.jpg",
+      "PackagePath": "staticwebassets\\images\\8089266f-371a-473f-9cc3-ac0477e55338_33.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\83b75e82-272c-4d9d-b138-83f5bcb006b9_images.jpeg",
+      "PackagePath": "staticwebassets\\images\\83b75e82-272c-4d9d-b138-83f5bcb006b9_images.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\8656cea3-bff7-4de0-b6fe-d3b2e8e2633f_Uzak-Sehir-Dizisinin-Heyecan-Dolu-Ilk-Bolumu-Canli-Izle-Olaylar.webp",
+      "PackagePath": "staticwebassets\\images\\8656cea3-bff7-4de0-b6fe-d3b2e8e2633f_Uzak-Sehir-Dizisinin-Heyecan-Dolu-Ilk-Bolumu-Canli-Izle-Olaylar.webp"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\86f4962f-a1b8-48a5-86e2-54021732c6cc_kapak_110107.jpg",
+      "PackagePath": "staticwebassets\\images\\86f4962f-a1b8-48a5-86e2-54021732c6cc_kapak_110107.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\8831b296-9f4f-4ae9-bb75-678b7679fd66_hizli.jpeg",
+      "PackagePath": "staticwebassets\\images\\8831b296-9f4f-4ae9-bb75-678b7679fd66_hizli.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\8a4fb64a-5226-4e46-a3e1-951b222d748a_icerde-68388.jpg",
+      "PackagePath": "staticwebassets\\images\\8a4fb64a-5226-4e46-a3e1-951b222d748a_icerde-68388.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\8a8acc6a-b385-4f90-accc-1394631189d4_baba_batcheditor_fotor.jpg",
+      "PackagePath": "staticwebassets\\images\\8a8acc6a-b385-4f90-accc-1394631189d4_baba_batcheditor_fotor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\8f4c43e5-cdcd-43c6-91c7-437745f1bc8c_vPS1P-Gw_400x4002.jpg",
+      "PackagePath": "staticwebassets\\images\\8f4c43e5-cdcd-43c6-91c7-437745f1bc8c_vPS1P-Gw_400x4002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\a34f90dc-b209-43bd-8afb-2516b1d5a099_kapak_110107_batcheditor_fotor.jpg",
+      "PackagePath": "staticwebassets\\images\\a34f90dc-b209-43bd-8afb-2516b1d5a099_kapak_110107_batcheditor_fotor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\a530d27c-6f71-448d-9038-691b785bc64e_images.jpeg",
+      "PackagePath": "staticwebassets\\images\\a530d27c-6f71-448d-9038-691b785bc64e_images.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\a6089419-1eed-4ed9-8b2c-9daaaba3b9e6_TOLGSHOW_480x281-aead79cab7.png",
+      "PackagePath": "staticwebassets\\images\\a6089419-1eed-4ed9-8b2c-9daaaba3b9e6_TOLGSHOW_480x281-aead79cab7.png"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\a721ac37-d084-48bd-bcf5-414405201f94_33.jpg",
+      "PackagePath": "staticwebassets\\images\\a721ac37-d084-48bd-bcf5-414405201f94_33.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\ab2f7a8e-0163-4a19-b3d8-982f3d0b1266_6376496aebc83025084a1ecd.webp",
+      "PackagePath": "staticwebassets\\images\\ab2f7a8e-0163-4a19-b3d8-982f3d0b1266_6376496aebc83025084a1ecd.webp"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\b3716332-ca3f-49b1-8f28-c0a94f683afa_643593_batcheditor_fotor (1).webp",
+      "PackagePath": "staticwebassets\\images\\b3716332-ca3f-49b1-8f28-c0a94f683afa_643593_batcheditor_fotor (1).webp"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\b3ffe186-f3da-4ea7-92ca-87a84bec227f_kapak_110107.jpg",
+      "PackagePath": "staticwebassets\\images\\b3ffe186-f3da-4ea7-92ca-87a84bec227f_kapak_110107.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\b5f32248-b8d6-43f3-82f7-bc2e486136ba_Geniş_Aile.png",
+      "PackagePath": "staticwebassets\\images\\b5f32248-b8d6-43f3-82f7-bc2e486136ba_Geniş_Aile.png"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\b8efa8f6-b10c-4719-a026-7c4d437316f9_Oppenheimer_(film)_afiş.jpg",
+      "PackagePath": "staticwebassets\\images\\b8efa8f6-b10c-4719-a026-7c4d437316f9_Oppenheimer_(film)_afiş.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\bbe46396-1aac-4252-b555-f3174ee89892_unnamed.jpg",
+      "PackagePath": "staticwebassets\\images\\bbe46396-1aac-4252-b555-f3174ee89892_unnamed.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\c843bf88-0040-440b-94c8-3c076ce07f87_TOLGSHOW_480x281-aead79cab7.png",
+      "PackagePath": "staticwebassets\\images\\c843bf88-0040-440b-94c8-3c076ce07f87_TOLGSHOW_480x281-aead79cab7.png"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\cff0a806-f1f1-476c-8415-00b4eda3603f_MV5BNTYwMDg5MDItNjhmZi00NmVmLThj.jpg",
+      "PackagePath": "staticwebassets\\images\\cff0a806-f1f1-476c-8415-00b4eda3603f_MV5BNTYwMDg5MDItNjhmZi00NmVmLThj.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\d15816b5-5602-4c13-aba2-b5c8fff491ca_Diriliş-_Ertuğrul.jpg",
+      "PackagePath": "staticwebassets\\images\\d15816b5-5602-4c13-aba2-b5c8fff491ca_Diriliş-_Ertuğrul.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\d417bdc6-3759-4c57-924e-3ce7890d262c_channels4_profile.jpg",
+      "PackagePath": "staticwebassets\\images\\d417bdc6-3759-4c57-924e-3ce7890d262c_channels4_profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\d61593cc-6673-46a4-96dd-86252fce9adb_channels4_profile_batcheditor_fotor.jpg",
+      "PackagePath": "staticwebassets\\images\\d61593cc-6673-46a4-96dd-86252fce9adb_channels4_profile_batcheditor_fotor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\ddc4bd4b-e613-48cf-96f2-287564d7a87f_maxresdefault_batcheditor_fotor.jpg",
+      "PackagePath": "staticwebassets\\images\\ddc4bd4b-e613-48cf-96f2-287564d7a87f_maxresdefault_batcheditor_fotor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\de7847cc-2a7f-41dd-8520-7b41b91383a6_vPS1P-Gw_400x400.jpg",
+      "PackagePath": "staticwebassets\\images\\de7847cc-2a7f-41dd-8520-7b41b91383a6_vPS1P-Gw_400x400.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\df6cdbf0-b8db-42e7-99ad-6617d787738d_MV5BNTYwMDg5MDItNjhmZi00NmVmLThj.jpg",
+      "PackagePath": "staticwebassets\\images\\df6cdbf0-b8db-42e7-99ad-6617d787738d_MV5BNTYwMDg5MDItNjhmZi00NmVmLThj.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\e27ecb3a-9fc9-4183-b544-735f2996b4f9_venom_batcheditor_fotor.jpg",
+      "PackagePath": "staticwebassets\\images\\e27ecb3a-9fc9-4183-b544-735f2996b4f9_venom_batcheditor_fotor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\e2a93dfd-eaa7-4ca4-8a6a-9f2e7ebae82c_33.jpg",
+      "PackagePath": "staticwebassets\\images\\e2a93dfd-eaa7-4ca4-8a6a-9f2e7ebae82c_33.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\ea97bfdf-239b-4e0a-9e54-f6bfec6bc03a_Diriliş-_Ertuğrul_S.jpg",
+      "PackagePath": "staticwebassets\\images\\ea97bfdf-239b-4e0a-9e54-f6bfec6bc03a_Diriliş-_Ertuğrul_S.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\ebd699f2-2231-4cad-a348-0553e20568af_muhtesem-yuzyil-10-bolum-foto-galeri-382.jpg",
+      "PackagePath": "staticwebassets\\images\\ebd699f2-2231-4cad-a348-0553e20568af_muhtesem-yuzyil-10-bolum-foto-galeri-382.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\eef8b76f-8651-44f1-9871-c0369508f6af_vPS1P-Gw_400x4002.jpg",
+      "PackagePath": "staticwebassets\\images\\eef8b76f-8651-44f1-9871-c0369508f6af_vPS1P-Gw_400x4002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\f326a143-a793-4c87-a3c7-25bbbf7484d3_muhtesem-yuzyil-10-bolum-foto-galeri-382.jpg",
+      "PackagePath": "staticwebassets\\images\\f326a143-a793-4c87-a3c7-25bbbf7484d3_muhtesem-yuzyil-10-bolum-foto-galeri-382.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\f35ad2d5-79a8-4c4d-9786-3449ae61264d_Diriliş-_Ertuğrul_S1.jpg",
+      "PackagePath": "staticwebassets\\images\\f35ad2d5-79a8-4c4d-9786-3449ae61264d_Diriliş-_Ertuğrul_S1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\f433a2a8-1880-4de1-b36d-47878980eee6_hizli.jpeg",
+      "PackagePath": "staticwebassets\\images\\f433a2a8-1880-4de1-b36d-47878980eee6_hizli.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\f9640c28-d062-4c40-aebd-b53f42a0e00f_hizli.jpeg",
+      "PackagePath": "staticwebassets\\images\\f9640c28-d062-4c40-aebd-b53f42a0e00f_hizli.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\images\\fd997c76-548a-41c2-8583-595441d7fa15_vPS1P-Gw_400x400.jpg",
+      "PackagePath": "staticwebassets\\images\\fd997c76-548a-41c2-8583-595441d7fa15_vPS1P-Gw_400x400.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\website\\app.js",
+      "PackagePath": "staticwebassets\\website\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\website\\img\\kurtlar_vadisi.png",
+      "PackagePath": "staticwebassets\\website\\img\\kurtlar_vadisi.png"
+    },
+    {
+      "Id": "C:\\Users\\alper\\source\\repos\\MovieMVC\\MovieMVC\\wwwroot\\website\\style.css",
+      "PackagePath": "staticwebassets\\website\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MovieMVC.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MovieMVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MovieMVC.props",
+      "PackagePath": "build\\MovieMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MovieMVC.props",
+      "PackagePath": "buildMultiTargeting\\MovieMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MovieMVC.props",
+      "PackagePath": "buildTransitive\\MovieMVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

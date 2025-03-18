@@ -1,0 +1,444 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.menu-list-item a {
+    color: white;
+    text-decoration: none;
+}
+
+    .menu-list-item a:hover {
+        color: cornflowerblue;
+    }
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    height: 100%;
+    color: white;
+    font-family: "Sen", sans-serif;
+}
+
+.logo-container {
+    flex: 1;
+}
+
+.logo {
+    font-size: 30px;
+    color: #4dbf00;
+}
+
+.menu-container {
+    flex: 6;
+}
+
+.menu-list {
+    display: flex;
+    list-style: none;
+}
+
+.menu-list-item {
+    margin-right: 30px;
+}
+
+    .menu-list-item.active {
+        font-weight: bold;
+    }
+
+.profile-container {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.profile-text-container {
+    margin: 0 20px;
+}
+
+.profile-picture {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.toggle {
+    width: 40px;
+    height: 20px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.toggle-icon {
+    color: goldenrod;
+}
+
+.toggle-ball {
+    width: 18px;
+    height: 18px;
+    background-color: black;
+    position: absolute;
+    right: 1px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 1s ease all;
+}
+
+.sidebar {
+    width: 50px;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.left-menu-icon {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.container {
+    background-color: #151515;
+    min-height: calc(100vh - 50px);
+    color: white;
+}
+
+.content-container {
+    margin-left: 50px;
+}
+
+.featured-content {
+    height: 50vh;
+    padding: 50px;
+    padding-bottom: 130px;
+    background-image: url('/website/img/kurtlar_vadisi.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.featured-desc {
+    width: 500px;
+    color: #f71414;
+    margin: 5px 0;
+}
+
+.featured-button {
+    background-color: #4dbf00;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.movie-list-container {
+    padding: 0 20px;
+}
+
+.movie-list-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.movie-list {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
+}
+
+.movie-list-item {
+    margin-right: 30px;
+    position: relative;
+}
+
+    .movie-list-item:hover .movie-list-item-img {
+        transform: scale(1.2);
+        margin: 0 30px;
+        opacity: 0.5;
+    }
+
+    .movie-list-item:hover .movie-list-item-title,
+    .movie-list-item:hover .movie-list-item-desc,
+    .movie-list-item:hover .movie-list-item-button {
+        opacity: 1;
+    }
+
+.movie-list-item-img {
+    transition: all 1s ease-in-out;
+    width: 270px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.movie-list-item-title {
+    background-color: #333;
+    padding: 0 10px;
+    font-size: 32px;
+    font-weight: bold;
+    position: absolute;
+    top: 10%;
+    left: 50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+
+.movie-list-item-desc {
+    background-color: #333;
+    padding: 10px;
+    font-size: 14px;
+    position: absolute;
+    top: 30%;
+    left: 50px;
+    width: 230px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+
+.movie-list-item-button {
+    padding: 10px;
+    background-color: #4dbf00;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+    text-decoration: none;
+}
+
+.arrow {
+    font-size: 120px;
+    position: absolute;
+    top: 90px;
+    right: 0;
+    color: lightgray;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.container.active {
+    background-color: white;
+}
+
+.movie-list-title.active {
+    color: black;
+}
+
+.navbar-container.active {
+    background-color: white;
+    color: black;
+}
+
+.sidebar.active {
+    background-color: white;
+}
+
+.left-menu-icon.active {
+    color: black;
+}
+
+.toggle.active {
+    background-color: black;
+}
+
+.toggle-ball.active {
+    background-color: white;
+    transform: translateX(-20px);
+}
+
+.featured-contentt {
+    height: 50vh;
+    padding: 50px;
+    padding-bottom: 130px;
+}
+/* movie-details-content flex düzeni */
+.movie-details-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Arada boþluk býrakmak için */
+    margin-bottom: 30px;
+}
+
+/* Kapak fotoðrafýnýn sol tarafa yerleþmesi */
+.movie-details-image {
+    flex: 1;
+    max-width: 50%; /* Boyutunu büyütüyoruz */
+}
+
+/* Fragman kýsmýnýn sað tarafa yerleþmesi */
+.movie-details-trailer {
+    flex: 1;
+    max-width: 50%; /* Boyutunu büyütüyoruz */
+}
+
+    /* Video kýsmýnýn boyutunu düzenleyelim */
+    .movie-details-trailer iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+/* Kapak fotoðrafý daha büyük hale gelmesi için */
+.movie-details-image img {
+    width: 100%; /* Yüzde 100 geniþlik */
+    height: auto; /* Yükseklik orantýlý olsun */
+}
+
+/* Bilgiler kýsmý */
+.movie-details-info {
+    margin-top: 20px;
+    color: white;
+}
+
+/* Butonun altýndaki mavi çizgiyi kaldýrma */
+.movie-details-buttons a {
+    background-color: #951616; /* Butonun arka plan rengi */
+    color: white; /* Yazý rengi */
+    padding: 12px 25px; /* Ýçerik alanýnýn geniþliði ve yüksekliði */
+    font-size: 16px; /* Yazý boyutu */
+    text-align: center; /* Yazýyý ortalama */
+    border-radius: 8px; /* Kenarlarý yuvarlatma */
+    text-decoration: none; /* Alt çizgiyi kaldýrma */
+    display: inline-block; /* Butonu blok elemaný gibi yapma */
+    transition: all 0.3s ease; /* Butonun hover sýrasýnda geçiþ efekti */
+}
+
+    /* Buton üzerine hover efekti ekleme */
+    .movie-details-buttons a:hover {
+        background-color: #ff6347; /* Butonun hover rengi */
+        transform: scale(1.05); /* Hover sýrasýnda butonu biraz büyütme */
+    }
+
+/* Bilgilerin düzenlenmesi */
+.movie-details-info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.container-movie {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #ffcc00;
+}
+
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.movie-card {
+    background: #1f1f1f;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+    .movie-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+
+.movie-image {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 100%; /* Kare oluþturmak için */
+    background-color: #333;
+}
+
+    .movie-image img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+    }
+
+    .movie-image:hover img {
+        transform: scale(1.1);
+    }
+
+.movie-info {
+    padding: 50px;
+}
+
+.movie-title {
+    font-size: 1.5rem;
+    margin: 0 0 10px;
+    color: #ffcc00;
+}
+
+.movie-description {
+    font-size: 1rem;
+    margin: 0;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+.watch-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff4c4c;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+
+    .watch-button:hover {
+        background-color: #ff1c1c;
+        transform: scale(1.1);
+    }
+
+@media only screen and (max-width: 940px) {
+    .menu-container {
+        display: none;
+    }
+}
